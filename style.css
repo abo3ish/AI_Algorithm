@@ -1,0 +1,52 @@
+.form{
+	margin: 20px auto;
+	/*width:800px;*/
+	/*text-align: center;*/
+}
+form select{
+	width :35%;
+	background-color: #e0dede;
+	min-height:40px;
+	color:#2f2d2d;
+	border-radius: 8px;
+	font-size: 23px;
+}
+form select[name='search']{
+	width:13%;
+}
+input[type='submit']{
+    background-color: #2f2d2d;
+    display: block;
+    margin-top: 50px;
+    width: 450px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 210px;
+    margin: 20px auto;
+    cursor: pointer;
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+} 
+.city {
+    display: inline-block;
+    margin-left: 60px;
+    color: #353434;
+    font-size: 25px;
+    background-color: #a09b9c22;
+    border: 1px solid #555;
+    border-radius: 50%;
+    line-height: 3;
+    padding: 8px;
+    margin-top: 200px;
+    text-transform: capitalize;
+}
+.city:first-of-type {
+    background-color: #09ec0d;
+    color:#fff;
+}
+.city:last-of-type {
+    background-color: blue;
+    color:#fff;
+}
